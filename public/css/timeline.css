@@ -1,0 +1,64 @@
+body{
+    height: 100%;
+    background-color: #E6ECF0;
+}
+.wrapper{
+    width:50%;
+    margin:0 auto;
+    background-color: #ffffff;
+}
+
+.post-box{
+    background-color: #2695E0;
+    text-align: center;
+}
+
+.post-box>input{
+    margin: 1rem;
+    padding: 0 1rem;
+    width: 70%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    height: 2.3rem;
+}
+
+.submit-btn{
+    background-color: orange;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: none;
+}
+
+.tweet-box{
+    padding: 2rem;
+    border-top: solid 1px #E6ECF0;
+    border-bottom: solid 1px #E6ECF0;
+    display: flex;
+    height: 30vh;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tweet-box>div{
+    width: 40%;
+}
+.tweet-box>a{
+    width: 60vw;
+}
+.tweet-box>a>img{
+    width:50%;
+    height: auto;
+    border: 1px solid black;
+    margin-right: 30px;
+}
+
+.destroy-btn{
+    text-align: right;
+}
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
